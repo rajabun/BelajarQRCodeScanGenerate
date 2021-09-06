@@ -15,6 +15,7 @@
 		4EDAFC8026E1A51A007978C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAFC7E26E1A51A007978C3 /* LaunchScreen.storyboard */; };
 		4EDAFC8B26E1A51B007978C3 /* BelajarQRCodeScanGenerateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAFC8A26E1A51B007978C3 /* BelajarQRCodeScanGenerateTests.swift */; };
 		4EDAFC9626E1A51B007978C3 /* BelajarQRCodeScanGenerateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAFC9526E1A51B007978C3 /* BelajarQRCodeScanGenerateUITests.swift */; };
+		4EDAFCA426E1A548007978C3 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAFCA326E1A548007978C3 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4EDAFC9126E1A51B007978C3 /* BelajarQRCodeScanGenerateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelajarQRCodeScanGenerateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDAFC9526E1A51B007978C3 /* BelajarQRCodeScanGenerateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelajarQRCodeScanGenerateUITests.swift; sourceTree = "<group>"; };
 		4EDAFC9726E1A51B007978C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAFCA326E1A548007978C3 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4EDAFC7326E1A51A007978C3 /* AppDelegate.swift */,
 				4EDAFC7526E1A51A007978C3 /* SceneDelegate.swift */,
 				4EDAFC7726E1A51A007978C3 /* ViewController.swift */,
+				4EDAFCA326E1A548007978C3 /* ScannerViewController.swift */,
 				4EDAFC7926E1A51A007978C3 /* Main.storyboard */,
 				4EDAFC7C26E1A51A007978C3 /* Assets.xcassets */,
 				4EDAFC7E26E1A51A007978C3 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				4EDAFC7826E1A51A007978C3 /* ViewController.swift in Sources */,
 				4EDAFC7426E1A51A007978C3 /* AppDelegate.swift in Sources */,
 				4EDAFC7626E1A51A007978C3 /* SceneDelegate.swift in Sources */,
+				4EDAFCA426E1A548007978C3 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuhammadRajab.BelajarQRCodeScanGenerate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuhammadRajab.BelajarQRCodeScanGenerate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
